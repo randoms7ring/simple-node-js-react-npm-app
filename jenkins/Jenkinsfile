@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'chown -R 108:112 "."'
+                //sh 'chown -R 108:112 "."'
                 sh 'npm install --loglevel=verbose'
             }
         }
